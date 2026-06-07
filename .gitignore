@@ -1,0 +1,30 @@
+# 知识库 .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大数据/数据文件（太大的不上传）
+*.csv
+*.json
+!example.csv
+*.pkl
+*.h5
+data/*.zip
